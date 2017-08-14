@@ -1,0 +1,3 @@
+#!/bin/bash -eu
+
+watch -n 1 "echo environment:;kubectl config view --minify | grep current-context;echo;echo total:;kubectl get po | grep Run | wc -l;echo;echo 'not running:';kubectl get po | grep -v NAME | grep -v Run | wc -l;echo;echo master:;kubectl get po | grep master;echo;echo grafana:;kubectl get po | grep grafana | awk '{print \$1}';echo;kubectl get po | grep -v Run"

@@ -1,0 +1,17 @@
+#!/bin/bash -eu
+
+## Check arguments
+if [ $# -ne 1 ]; then
+    echo -e "Argument is missing!!\n\nUsage: ${0} [deployment name]"
+    exit 1
+fi
+
+## Get deployment name
+deployment_name="`kubectl top pod --all-namespaces=true --containers=true | awk '{print $3}' | grep -x ${1} | head -n1`"
+
+if [ "${deployment_name}" = "${1}" ]; then
+    watch -n 1 "echo total:;echo;echo $((`kubectl top pod --all-namespaces=true --containers=true -l name=${1} | wc -l` - 1));echo;kubectl top pod --all-namespaces=true --containers=true -l name=${1}"
+else
+    echo "${1} is not exist!!"
+    exit 1
+fi
