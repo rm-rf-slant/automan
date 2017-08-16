@@ -6,6 +6,7 @@ readonly BIN_PATH="/usr/local/bin"
 readonly COMMANDS=(
 gcm
 kubetop
+nodecpu
 switch
 )
 
