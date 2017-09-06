@@ -1,9 +1,10 @@
 #!/bin/bash -eu
 
 ## Check arguments
-if [ $# -ne 2 ]; then
-    echo -e "Argument is missing!!\n\nUsage: ${0} [cluster_name] [zone]"
+if [ $# -ne 3 ]; then
+    echo -e "Argument is missing!!\n\nUsage: ${0} [credentials_dir] [cluster_name] [zone]"
     exit 1
 fi
 
-gcloud --project=`gcloud config configurations list | grep True | awk '{print $4}'` container clusters get-credentials ${1} --zone=${2}
+export GOOGLE_APPLICATION_CREDENTIALS=${HOME}/${1}
+gcloud --project=`gcloud config configurations list | grep True | awk '{print $4}'` container clusters get-credentials ${2} --zone=${3}
