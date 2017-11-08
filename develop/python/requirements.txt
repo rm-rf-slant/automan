@@ -1,4 +1,4 @@
-git+https://github.com/locustio/locust.git
+git+https://github.com/locustio/locust.git@50fa3136b8f621d954c40b9509ce24afb392509b
 appdirs==1.4.3
 appnope==0.1.0
 asn1crypto==0.23.0
