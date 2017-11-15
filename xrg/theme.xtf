@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>backgroundColor</key>
+	<data>
+	BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2JqZWN0AIWEAWMChARm
+	ZmZmAAAAg0b0wT2G
+	</data>
+	<key>backgroundTransparency</key>
+	<real>0.1932251900434494</real>
+	<key>borderColor</key>
+	<data>
+	BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2JqZWN0AIWEAWMChARm
+	ZmZmAAAAg0xzRz6G
+	</data>
+	<key>borderTransparency</key>
+	<real>0.19477576017379761</real>
+	<key>graphBGColor</key>
+	<data>
+	BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2JqZWN0AIWEAWMChARm
+	ZmZmAAAAgyl5uj6G
+	</data>
+	<key>graphBGTransparency</key>
+	<real>0.36420562863349915</real>
+	<key>graphFG1Color</key>
+	<data>
+	BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2JqZWN0AIWEAWMBhARm
+	ZmZmAAAAgzHNSj+G
+	</data>
+	<key>graphFG1Transparency</key>
+	<real>0.79219347238540649</real>
+	<key>graphFG2Color</key>
+	<data>
+	BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2JqZWN0AIWEAWMBhARm
+	ZmZmg3usUz6DJ6YSP4P+6Rk/gwAATT+G
+	</data>
+	<key>graphFG2Transparency</key>
+	<real>0.80078125</real>
+	<key>graphFG3Color</key>
+	<data>
+	BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2JqZWN0AIWEAWMBhARm
+	ZmZmg86mdz+D7N30PYMOrqQ+g8UJUD+G
+	</data>
+	<key>graphFG3Transparency</key>
+	<real>0.81264907121658325</real>
+	<key>textColor</key>
+	<data>
+	BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2JqZWN0AIWEAWMDhAJm
+	ZgGDMzMzP4Y=
+	</data>
+	<key>textTransparency</key>
+	<real>0.69999998807907104</real>
+</dict>
+</plist>
