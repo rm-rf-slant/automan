@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DisplayID</key>
+	<integer>69733632</integer>
+	<key>GeekletFrame</key>
+	<string>{{-14.8828125, 6.10546875}, {871, 294}}</string>
+	<key>HasShadow</key>
+	<false/>
+	<key>Identifier</key>
+	<string>org.tynsoe.geeklet.web</string>
+	<key>Name</key>
+	<string>weather</string>
+	<key>URL</key>
+	<string>http://forecast.io/embed/#lat=35.6648&amp;lon=139.6981&amp;units=si&amp;font=HelveticaNeue&amp;name=Tokyo</string>
+</dict>
+</plist>
