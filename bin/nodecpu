@@ -1,3 +1,3 @@
 #!/bin/bash -eu
 
-kubectl get nodes | grep gke | cut -f1 -d' ' | xargs -I{} sh -c 'kubectl describe node {} | grep -A 2 "CPU Requests" | tail -n 1; sleep 1'
+kubectl describe node | grep -E -A 2 "^ +CPU Requests"| grep -E '[0-9]+'
