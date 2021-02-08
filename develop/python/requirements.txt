@@ -50,7 +50,7 @@ greenlet==0.4.12
 grpcio==1.7.0
 gspread==3.0.0
 html5lib==0.999999999
-httplib2==0.10.3
+httplib2==0.19.0
 idna==2.6
 ip-associations-python-novaclient-ext==0.2
 ipaddress==1.0.18
