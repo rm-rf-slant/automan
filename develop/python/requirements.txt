@@ -92,7 +92,7 @@ osc-lib==1.7.0
 oslo.config==5.0.0
 oslo.i18n==3.18.0
 oslo.serialization==2.21.2
-oslo.utils==3.31.0
+oslo.utils==4.10.1
 packaging==16.8
 pandas==0.21.0
 pathlib2==2.3.0
