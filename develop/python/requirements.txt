@@ -60,7 +60,7 @@ iso8601==0.1.12
 itsdangerous==0.24
 Jinja2==2.9.6
 jmespath==0.9.3
-joblib==0.11
+joblib==1.2.0
 jsonpatch==1.16
 jsonpointer==1.14
 jsonschema==2.6.0
